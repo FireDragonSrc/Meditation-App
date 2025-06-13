@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="assets/fontawesome-free-6.7.2-web/fontawesome-free-6.7.2-web/css/all.min.css">
+    <link rel="shortcut icon" href="assets/img/meditation.png" type="image/x-icon">
+    <title>Meditation</title>
+</head>
+<body>
+    <div class="options flex none">
+        <div class="markx">
+            <button class="close"><i class="fa-solid fa-xmark"></i></button>
+        </div>
+        <h1 lang="pt-br">Configurações</h1>
+        <p lang="en">theme</p>
+        <div class="flex flexbotoes">
+            <button class="padrao"></button>
+            <button class="floresta"></button>
+            <button class="space"></button>
+        </div>
+        <p lang="pt-br">Minutos</p>
+        <input class="min" type="number" placeholder="0">
+        <p lang="pt-br">Segundos</p>
+        <input class="seg" type="number" placeholder="0">
+        <button class="aplicar">Aplicar</button>
+    </div>
+    <main class="flex">
+        <div class="music">
+            <audio class="shadow audio" controls>
+                <source src="assets/audio/audio.m4a" type="audio/x-m4a">
+                Your browser does not support audio
+            </audio>
+        </div>
+        <header class="flex">
+            <div>
+                <h3 lang="en">meditation</h3>
+            </div>
+            <div class="buttonDiv flex">
+                <button class="hover audioButtons"><i class="fa-solid fa-music" style="color: #000000;"></i></button>
+                <button class="hover"><a href="https://github.com/FireDragonSrc/Meditation-App" defer><i class="fa-solid fa-code" style="color: #000000;"></i></a></button>
+                <button class="hover open config"><i class="fa-solid fa-gear" style="color: #000000;"></i></button>
+            </div>
+        </header>
+        <section class="flex shadow">
+            <div class="cronometro flex">
+                <div class="divContainer flex">
+                    <h1 class="cron">15:00</h1>
+                </div>
+            </div>
+            <div class="flex grupo">
+                <button class="start startButton flex" lang="en">Start</button>
+                <button class="start pauseButton flex" lang="en">Pause</button>
+                <button class="start resetButton flex" lang="en">Reset</button>
+            </div>
+        </section>
+        <footer class="flex">
+            <a href="https://github.com/FireDragonSrc" title="GitHub" defer><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.freelancer.com/u/FireDragonSrc" title="Freelancer" defer><i class="fa-solid fa-dove"></i></a> <!--Frelancer.com-->
+            <a href="https://www.linkedin.com/in/carlos-eduardo-6b7862292/" title="Linkedin" defer><i class="fa-brands fa-linkedin"></i></a>
+        </footer>
+    </main>
+    <script src="javascript/script.js"></script>
+</body>
+</html>
